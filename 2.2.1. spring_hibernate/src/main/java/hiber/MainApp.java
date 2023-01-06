@@ -44,7 +44,8 @@ public class MainApp {
         }
 
         System.out.println("--------------------------------");
-        System.out.println("Вывод User по модели и серии Car : " + userService.getUserOwnerCar("BMW", "X5"));
+        System.out.println("Вывод User по модели и серии Car : " +
+                userService.getUserOwnerCar("BMW", "X5"));
 
         context.close();
     }
