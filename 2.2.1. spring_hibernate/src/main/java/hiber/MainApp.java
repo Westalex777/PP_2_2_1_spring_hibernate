@@ -29,7 +29,6 @@ public class MainApp {
 
         for (int i = 0; i < users.size(); i++) {
             users.get(i).setCar(cars.get(i));
-            cars.get(i).setUser(users.get(i));
             userService.add(users.get(i));
         }
 
